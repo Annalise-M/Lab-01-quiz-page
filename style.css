@@ -6,13 +6,28 @@ body {
     justify-content: center;
     text-align: center;
     margin: 25px;
-    
+    /* display: flex; */
 }
 
 .about-me-section {
     border-radius: 50px;
     justify-content: center;
     padding: 218px;
+    text-align: center;
+    display: flexbox;
+    align-items: baseline;
+}
+
+.about-me-bullet {
+    justify-content: center;
+    text-align: left;
+    border: 30px;
+}
+/* padding: 50px; */
+
+.about-me-list {
+    justify-content: center;
+    text-align: left;
 }
 
 /*    background-color: black;opacity: .4; */

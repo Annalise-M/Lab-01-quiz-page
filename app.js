@@ -8,8 +8,12 @@ const resultSpan = document.getElementById('result');
 // set event listeners to update state and DOM
 myButton.addEventListener('click', () => {
 
-    const name = prompt('what is your name?');
     // name input
+    const name = prompt('what is your name?');
+    prompt(`Want to take the quiz ${name}?`);
+
+    // confirm user wants to do quiz
+    confirm('You sure about that?');
 
     const response1 = prompt('Is the sky blue in the photo?');
     // Correct answer is Yes

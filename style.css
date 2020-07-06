@@ -5,14 +5,14 @@ body {
     background-position: center;
     justify-content: center;
     text-align: center;
-    padding: 218px;
     margin: 25px;
     
 }
 
 .about-me-section {
+    border-radius: 50px;
     justify-content: center;
-    
+    padding: 218px;
 }
 
 /*    background-color: black;opacity: .4; */

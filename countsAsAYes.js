@@ -3,4 +3,7 @@ export function countsAsAYes(word) {
     if (firstLetter === 'y') {
         return true;
     }
+    else {
+        return false;
+    }
 }

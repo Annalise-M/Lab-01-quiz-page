@@ -1,4 +1,5 @@
-//import functions and grab DOM elements
+// import here
+import { countsAsAYes } from './countsAsAYes.js';
 
 const myButton = document.getElementById('quiz-button');
 const resultSpan = document.getElementById('result');
@@ -23,23 +24,24 @@ myButton.addEventListener('click', () => {
 
     const response3 = prompt('Are there any birds visible in the pic?');
     // Correct answer is No
+    prompt('The quiz is complete! See your score below!');
 
     let score = 0;
 
     console.log(name, response1, response2, response3);
 
     // if the first answer is yes, add one to the score
-    if (response1 === 'yes') {
+    if (countsAsAYes(response1)) {
         score++;
     }
 
     // if the second answer is yes, add one to the score
-    if (response2 === 'yes') {
+    if (countsAsAYes(response2)) {
         score++;
     }
 
     // if the third answer is no, add one to the score
-    if (response3 === 'no') {
+    if (!countsAsAYes(response3)) {
         score++;
     }
 

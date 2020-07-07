@@ -1,0 +1,6 @@
+export function countsAsAYes(word) {
+    const firstLetter = word.charAt(0).toLowerCase();
+    if (firstLetter === 'y') {
+        return true;
+    }
+}

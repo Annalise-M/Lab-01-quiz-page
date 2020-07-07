@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/106790684_10157438390986381_6020133696928675847_o.jpg?_nc_cat=103&_nc_sid=5b7eaf&_nc_ohc=ilUUed1OHTMAX_jP1GD&_nc_ht=scontent-sea1-1.xx&oh=f37807ef9bc335fb7b68dd4a3b97a22d&oe=5F291187');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25px;
+    flex-direction: row;
+}
+
+.about-me-section {
+    border-radius: 50px;
+    justify-content: center;
+    padding: 218px;
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(198, 248, 98);
+}
+
+.about-me-info {
+    justify-content: center;
+    text-align: center;
+    border: 300px;
+}
+
+.about-me-bullet {
+    justify-content: center;
+    text-align: left;
+    border: 30px;
+}
+
+.about-me-list {
+    justify-content: center;
+    text-align: left;
+    border: 30px;
+}
+
+/* padding: 50px; */
+/* background-color: black;opacity: .4; */

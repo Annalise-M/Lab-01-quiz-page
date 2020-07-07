@@ -47,5 +47,5 @@ myButton.addEventListener('click', () => {
 
     console.log(score);
 
-    resultSpan.textContent = name + score;
+    resultSpan.textContent = (`Alright ${name}! Your score is ${score}!`);
 });

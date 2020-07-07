@@ -7,3 +7,7 @@ export function countsAsAYes(word) {
         return false;
     }
 }
+
+// const firstLetter = word.charAt(0);
+// const isAY = firstLetter === 'y';
+// return isAY;
